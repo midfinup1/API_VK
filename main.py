@@ -51,13 +51,10 @@ class User:
         )
         return response.json()
 
-TOKEN = '10b2e6b1a90a01875cfaa0d2dd307b7a73a15ceb1acf0c0f2a9e9c586f3b597815652e5c28ed8a1baf13c'
+
+TOKEN = ''
 Anna = User(TOKEN, '196055093')
 Petya = User(TOKEN, '237127625')
 print(Anna & Petya)
 print(Anna)
 print(Petya)
-
-
-# 196055093
-# 237127625
